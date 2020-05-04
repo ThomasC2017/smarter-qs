@@ -583,7 +583,7 @@ a:focus,
 .mu-call-to-action-area {
 	display: inline;
 	float: left;
-	padding: 70px 0;
+	padding: 30px 0;
 	width: 100%;
 }
 
@@ -608,6 +608,7 @@ a:focus,
 	background-color: #fff;
 	color: #0091ea;
 	float: right;
+	margin-top: 25px;
 }
 
 .mu-quote-btn:hover,
@@ -2795,6 +2796,23 @@ a:focus,
 	font-size: 14px;
 }
 
+.mu-product-single-content {
+	display: inline;
+	/*float: left;*/
+	padding: 35px 0 15px;
+	width: 100%;
+}
+
+.mu-product-single-content ul {
+	/*text-align: center;*/
+}
+
+.mu-product-single-content ul li {
+	color: #666666;
+	font-size: 14px;
+	list-style: none;
+	line-height: 1.7;
+}
 
 
 /*--------------------*/
@@ -3652,9 +3670,6 @@ a:focus,
 	.mu-backdrop {
 		height: 200px;
 	}
-
-	
-
 }
 
 
@@ -3668,7 +3683,4 @@ a:focus,
 	.mu-filter-item-content {
 		padding-top: 24%;
 	}
-	
-	
 }
-
